@@ -4,9 +4,13 @@ sudo apt install build-essential qt6-base-dev cmake
 
 Build: 
 git clone  https://github.com/Anuroop/roku-sleep-timer.git
+
 cd roku-sleep-timer
+
 mkdir build && cd build
+
 cmake ../
+
 make
 
 # Test
