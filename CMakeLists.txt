@@ -5,7 +5,7 @@ project(QtButtonApp)
 find_package(Qt6 REQUIRED COMPONENTS Widgets Network)
 
 # Create the executable
-add_executable(qt_app roku-sleep-timer.cpp)
+add_executable(roku_sleep_timer roku-sleep-timer.cpp)
 
 # Link the Qt6 libraries
 target_link_libraries(qt_app PRIVATE Qt6::Widgets Qt6::Network)
